@@ -1,0 +1,315 @@
+body {
+	font-family: Maven Pro, sans-serif;
+}
+
+/*------NAVBAR--------*/
+
+nav{
+	background-color: #8B1E3F !important;
+}
+
+
+.navbar-brand {
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	line-height: 21.94px;
+	color: #D7B377 !important;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+nav a {
+	color: #ffeb95 !important;
+}
+
+#main-nav:hover {
+	color: #000000 !important;
+}
+
+
+.external-content-btn {
+	display: none;
+	background-color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+
+
+	.external-content-btn {
+		display: block;
+	}
+
+}
+
+
+/*------NAVBAR END--------*/
+
+/*------LANDING--------*/
+#title {
+	font-family: Roboto Slab, sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	word-spacing: 7px;
+	color: #4B3B47;
+}
+
+#name{
+	color: #8B1E3F;
+}
+
+#subtitle {
+	font-family: Maven Pro, sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	color: #4B3B47;
+	
+}
+
+
+/*------LANDING END--------*/
+
+/*---------RESOURCES------------*/
+
+
+#resources h5 {
+	font-family: Roboto Slab, sans-serif;
+	color: #4B3B47;
+	font-weight: 900;
+}
+
+#resources p {
+	font-family: Maven Pro, sans-serif;
+	font-weight: 200;
+	color: #54428E;
+	padding: 10px;
+
+	
+}
+
+#resources h2 {
+	font-family: Roboto Slab, sans-serif;
+	font-weight: 900;
+	color: #8B1E3F;
+}
+
+
+.btn-wide {
+	width: 100%; 
+}
+
+.list-group-item {
+	font-family: Roboto Slab;
+	background-color: #fef6e5;
+	margin-bottom: 10px;
+	color: #8B1E3F;
+}
+
+.list-group li:hover {
+	background-color: #fcdb99;
+
+}
+
+
+.btn {
+	color: white;
+	background-color: #8B1E3F;
+}
+
+
+
+/*---------RESOURCES END------------*/
+
+/*---------CATEGORIES------------*/
+
+#categories h2 {
+	font-family: Roboto Slab, sans-serif;
+	font-weight: 900;
+	color: #8B1E3F;
+}
+
+/*---------CATEGORIES END------------*/
+
+#about {
+	margin-top: 100px;
+	background-color: #8B1E3F;
+}
+
+#about h2 {
+	padding-top: 30px;
+	font-size: 40px;
+	font-family: Roboto Slab, sans-serif;
+	font-weight: 900;
+	color: #D7B377;
+}
+
+#about p {
+	font-family: Maven Pro, sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	color: white;
+	margin: 0;
+	padding-bottom: 50px;
+	
+}
+
+/*---------CONTACT------------*/
+#contact {
+	background-color: #D7B377;
+	font-family: Roboto Slab;
+	color: #4B3B47;
+	font-weight: 500;
+}
+
+#contact-text {
+	font-size: 20px;
+}
+
+#contact form input{
+	border: 1px solid #8B1E3F;
+}
+
+#contact form textarea{
+	border: 1px solid #8B1E3F;
+}
+
+#contact-header{
+	color: #8B1E3F;
+	font-weight: 900;
+}
+
+#form-btn {
+	padding: 10px;
+	border-radius: 5px;
+	color: #F5F0F6;
+	background-color: #8B1E3F;
+}
+
+
+
+/*---------CONTACT END------------*/
+
+/*----------SMALL-----*/
+
+@media (min-width: 767.98px) and (max-width: 1200px) {
+
+
+	#form-btn{
+		display: inline-block;
+		width: 100%;
+	}
+
+	#title {
+
+		font-size: 30px;
+		color: #4B3B47;
+	}
+
+	#subtitle {
+
+		font-size: 20px;
+		margin-bottom: 50px ;
+	}
+
+	#profile{
+		height: 300px;
+		width: 300px;
+	}
+
+
+}
+
+@media (min-width: 992px) {
+
+
+	#categories {
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+
+	#categories {
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
+footer{
+	
+	font-size: 15px;
+	text-align: center;
+	background-color: #8B1E3F;
+	color: #FFF2E4;
+}
+
+.card {
+	width: 100%;
+	height: 100%; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-body{
+	padding-top: 10px;
+	flex-direction: column; 
+	justify-content: space-between; 
+	display: flex;
+}
+
+.card-img-container {
+	width: 100%;
+	height: 200px; 
+	overflow: hidden;
+	position: relative;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card .btn-wide:hover{
+	background-color: #650000;
+	color: white;
+}
+
+@media (min-width: 375px) and (max-width: 767.98px) {
+
+	#about h2 {
+
+		font-size: 30px;
+
+	}
+
+	#about p {
+
+		font-size: 20px;
+
+	}
+
+	#title {
+		font-size: 30px;
+	}
+
+	#subtitle {
+		font-size: 15px;
+	}
+}
